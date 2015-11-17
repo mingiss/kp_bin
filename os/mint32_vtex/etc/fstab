@@ -1,0 +1,22 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+proc            /proc           proc    nodev,noexec,nosuid 0       0
+# / was on /dev/sda1 during installation
+UUID=0251ab20-5fc8-4330-a2e6-c9426713ae36 /               ext4    errors=remount-ro 0       1
+# swap was on /dev/sdb1 during installation
+UUID=4f0a3188-d12a-457e-bef0-e7423cfed218 none            swap    sw              0       0
+
+# //10.5.0.26/kp /mnt/kp cifs defaults,uid=1000,gid=1000,credentials=/home/mingis/.smbcredentials,umask=777 0 0
+# //10.5.0.26/kp /mnt/kp cifs defaults,uid=1000,gid=1000,nounix,iocharset=utf8,username=mingis,password=p4nkeli5,file_mode=0777,dir_mode=0777 0 0
+//10.5.0.26/D /mnt/win_d cifs defaults,uid=1000,gid=1000,nounix,iocharset=utf8,username=mingis,password=p4nkeli5,file_mode=0777,dir_mode=0777 0 0
+//10.5.0.26/E /mnt/win_e cifs defaults,uid=1000,gid=1000,nounix,iocharset=utf8,username=mingis,password=p4nkeli5,file_mode=0777,dir_mode=0777 0 0
+
+# /dev/sdc1                                 /mnt/data       ext3    defaults        1       2
+# /dev/sdd1                                 /mnt/kp         ext4    defaults        1       2
+/dev/sdc1                                 /mnt/kp         ext4    defaults        1       2
+

@@ -1,0 +1,5 @@
+cp /$KP/bin/vr.txt /root/.vmware/license
+cp /$KP/bin/vr.prf /root/.vmware/preferences
+cp /$KP/bin/vr.bin /home/kp/dat/dos.cfg
+# sdat
+vmware &

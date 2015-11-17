@@ -1,0 +1,5 @@
+rm /root/.mozilla/root/usqx00hr.slt/history.dat -f
+touch /root/.mozilla/root/usqx00hr.slt/history.dat
+rm /root/.mozilla/root/usqx00hr.slt/localstore.rdf -f
+touch /root/.mozilla/root/usqx00hr.slt/localstore.rdf
+rm /root/.mozilla/root/usqx00hr.slt/NewCache/* -f

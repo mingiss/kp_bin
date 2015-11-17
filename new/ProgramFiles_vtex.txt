@@ -1,0 +1,46 @@
+ Volume in drive C has no label.
+ Volume Serial Number is D4C6-0D2C
+
+ Directory of C:\Program Files
+
+2013-06-19  08:47    <DIR>          .
+2013-06-19  08:47    <DIR>          ..
+2012-12-28  10:48    <DIR>          7-Zip
+2013-05-14  10:57    <DIR>          Adobe
+2013-06-19  08:43    <DIR>          Common Files
+2012-06-11  19:38    <DIR>          ComPlus Applications
+2013-05-09  08:44    <DIR>          Dropbox
+2012-06-11  13:57    <DIR>          Far
+2012-06-11  20:45    <DIR>          Intel
+2013-02-15  12:58    <DIR>          Internet Explorer
+2012-06-13  08:31    <DIR>          IrfanView
+2013-04-10  09:30    <DIR>          Java
+2012-06-13  08:15    <DIR>          LibreOffice
+2012-06-11  13:08    <DIR>          Messenger
+2012-06-11  19:41    <DIR>          microsoft frontpage
+2013-06-19  08:43    <DIR>          Microsoft Help Viewer
+2013-06-19  08:43    <DIR>          Microsoft SDKs
+2013-06-19  08:47    <DIR>          Microsoft Silverlight
+2013-06-19  08:46    <DIR>          Microsoft SQL Server Compact Edition
+2013-06-19  08:47    <DIR>          Microsoft Synchronization Services
+2013-06-19  08:43    <DIR>          Microsoft.NET
+2012-06-11  13:15    <DIR>          Movie Maker
+2012-12-28  10:46    <DIR>          Mozilla Firefox
+2012-12-28  10:51    <DIR>          Mozilla Maintenance Service
+2012-12-28  10:48    <DIR>          Mozilla Thunderbird
+2013-06-19  08:43    <DIR>          MSBuild
+2012-06-11  19:37    <DIR>          MSN
+2012-06-11  19:38    <DIR>          MSN Gaming Zone
+2012-06-11  12:29    <DIR>          NetMeeting
+2012-06-11  12:19    <DIR>          Online Services
+2012-06-11  13:15    <DIR>          Outlook Express
+2012-06-11  20:39    <DIR>          Realtek
+2013-06-19  08:43    <DIR>          Reference Assemblies
+2013-02-18  11:35    <DIR>          SmartSVN 7.5
+2012-06-11  20:47    <DIR>          STMicroelectronics
+2013-05-30  09:34    <DIR>          Windows Media Connect 2
+2013-05-30  09:34    <DIR>          Windows Media Player
+2012-06-11  12:29    <DIR>          Windows NT
+2012-06-11  19:41    <DIR>          xerox
+               0 File(s)              0 bytes
+              39 Dir(s)  12 804 366 336 bytes free

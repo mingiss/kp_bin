@@ -1,0 +1,34 @@
+boot=/dev/hda
+map=/boot/map
+install=/boot/boot.b
+#vga=Normal
+#default=linux
+#default=dos
+keytable=/boot/ltb-latin7.klt
+lba32
+#prompt
+#timeout=0
+#message=/boot/message
+#menu-scheme=wb:bw:wb:bw
+#image=/boot/vmlinuz
+#	label=Mandrake_7.2
+#	root=/dev/hda4
+#   append=" hdc=ide-scsi"
+#	vga=791
+#	read-only
+#image=/boot/vmlinuz
+#	label=M_7.2_failsafe
+#	root=/dev/hda4
+#	append=" hdc=ide-scsi failsafe"
+#	read-only
+#other=/dev/hda7
+#    label=RedHat_7.0
+#other=/dev/hda10
+#    label=S.u.S.E._5.2
+other=/dev/hda1
+	label=dos
+	table=/dev/hda
+#other=/dev/fd0
+#	label=floppy
+#	unsafe
+

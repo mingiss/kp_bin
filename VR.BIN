@@ -1,0 +1,14 @@
+#!/usr/bin/vmware
+config.version = 2
+ide0:0.present = TRUE
+ide0:0.fileName = "/home/kp/bin/file.tmp"
+ide0:1.present = TRUE
+ide0:1.fileName = "/home/kp/bin/file1.tmp"
+ide1:0.present = TRUE
+ide1:0.deviceType = "atapi-cdrom"
+floppy0.present = TRUE
+ethernet0.present = TRUE
+ethernet0.connectionType = "bridged"
+ethernet1.present = TRUE
+ethernet1.connectionType = "hostOnly"
+guestOS = "win98"

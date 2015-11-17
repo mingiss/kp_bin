@@ -1,0 +1,15 @@
+/dev/hda4 / ext2 defaults 1 1
+/dev/hda3 /mnt/rh70 ext2 defaults 1 1
+/dev/hda11 /mnt/suse52 ext2 defaults 1 1
+/dev/hda13 /boot ext2 defaults 1 2
+none /dev/pts devpts mode=0620 0 0
+#/mnt/cdrom /mnt/cdrom supermount fs=iso9660,dev=/dev/cdrom 0 0
+#/mnt/floppy /mnt/floppy supermount fs=vfat,dev=/dev/fd0 0 0
+#/dev/hda1 /mnt/win_c vfat user,exec,umask=0 0 0
+/dev/hda1 /mnt/win_c msdos user,exec,umask=0 0 0
+#/dev/hda5 /mnt/win_d vfat user,exec,umask=0 0 0
+/dev/hda5 /mnt/win_d msdos user,exec,umask=0 0 0
+#/dev/hda6 /mnt/win_e vfat user,exec,umask=0 0 0
+/dev/hda6 /mnt/win_e msdos user,exec,umask=0 0 0
+none /proc proc defaults 0 0
+/dev/hda12 swap swap defaults 0 0

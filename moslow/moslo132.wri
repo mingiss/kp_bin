@@ -1,0 +1,89 @@
+{\rtf1\ansi\deff0\deftab720{\fonttbl{\f0\fswiss MS Sans Serif;}{\f1\fdecor\fcharset2 Symbol;}{\f2\fswiss\fprq2 Arial;}{\f3\froman Times New Roman;}{\f4\froman\fprq2 Times New Roman;}{\f5\fmodern\fprq1 Courier New;}}
+{\colortbl\red0\green0\blue0;}
+\deflang1033\pard\qc\plain\f2\fs28\b Mo'Slo\plain\f2\fs22 \'99\plain\f2\fs28\b  version 1.32 evaluation
+\par \plain\f2\fs16 from Dr.David's Super Crispy Software
+\par division of Hearn/Perrell
+\par Copyright \'a9 David Perrell 1990,1997
+\par All rights reserved. 
+\par \plain\f2\fs20 
+\par \pard\plain\f4\fs20 Mo'Slo lets you to slow the speed of your computer to 1\endash 99% of normal in 1% increments. To use it, you supply the name of the program you want to run slow as a command line argument. Slowness is adjusted with a command line switch. If the switch is not supplied, Mo'Slo slows your computer to approximate a 4.77MHz PC/XT. 
+\par 
+\par \plain\f2\fs24\b\i INSTALLATION 
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs20 To install Mo'Slo, simply copy moslo.com into a directory that is accessible through your system path variable. To view the path variable, simply enter the word 'path' at the DOS command prompt. You will see a list of directory paths separated by semicolons (;). When you copy moslo.com to one of these directories it becomes available from the command line without the need to specify where it is.
+\par 
+\par In DOS 6.22 and earlier, the path C:\\DOS is almost always in your path variable. In DOS 7 (Win95), C:\\WINDOWS\\COMMAND is a good choice.
+\par 
+\par \plain\f2\fs24\b\i OPERATION 
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs20 Mo'Slo is a program that runs your programs. You execute Mo'Slo with slowdown speed and your program's name as command line arguments. Mo'Slo then slows your computer and executes your program.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 Mo'Slo v.1.32 requires the complete filename of your program, plus any path required to find it. For example, if the default directory at the command line is the root directory C:\\, and your game 'game.com' is in a subdirectory 'mygames', the following command entered at the DOS prompt will run 'game.com' at 20% normal speed:
+\par \plain\f4\fs12 
+\par \pard\li720\plain\f5\fs20 moslo /20 c:\\mygames\\game.com 
+\par \plain\f5\fs12 
+\par \pard\plain\f4\fs20 Since many games use other files to keep high scores, bitmaps, etc., it's best to switch to the drive and directory in which the game is located before running it. For example, if the program you want to run is located on drive D: in the subdirectory 'mygames', and the default directory is currently the root of C: (i.e. your command prompt looks like 'C:\\>'), then you would first switch to drive D:, then change to the '\\mygames' directory, then run Mo'Slo.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 Example command sequence: 
+\par \plain\f4\fs12 
+\par \pard\li720\plain\f5\fs20 d:
+\par cd \\mygames
+\par moslo /20 game.com 
+\par \plain\f5\fs12 
+\par \pard\plain\f4\fs20 When you exit your program in the normal fashion, you also exit Mo'Slo and normal speed is restored. Mo'Slo doesn't stay resident in memory and it doesn't alter the system clock.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 Mo'Slo v.1.32 will not run batch (.BAT) files. To run a batch file, you must either (1) alter the line in the batch file that calls the executable program, or (2) use Mo'Slo to launch COMMAND.COM, then launch your program with a separate command, e.g. 
+\par \plain\f4\fs12 
+\par \pard\li720\plain\f5\fs20 moslo /20 c:\\command.com
+\par game.bat
+\par \pard\plain\f4\fs12 
+\par \plain\f4\fs20 runs game.bat at 20%. After you exit your game you must then enter "exit" on the command line to restore normal speed.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 The simplest solution for running batch files is to purchase Mo'Slo Deluxe (see below).
+\par 
+\par \plain\f2\fs24\b\i TIPS 
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs20 Using Mo'Slo in a DOS box in MS Windows or Win95\emdash even at full screen\emdash can result in jerky operation, particularly at speeds below 50%. Never run Mo'Slo without a speed argument in a DOS box, or an apparent lock-up may occur. For best results, exit to the DOS command line.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 It is best to start fast and work downward until you find a good slowdown speed. If you try to run Mo'Slo too slow, your computer may actually speed up to normal speed and it will look as though Mo'Slo is not working at all. A good strategy is to start at 50%. If 50% is too fast, try 25%. If 25% is too slow, try 35%, etc. Narrow down by trying a midpoint between the too-fast speed and the too-slow speed until you reach an optimum. Then make note of what percentage works best with each program that you need to slow.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 Running Mo'Slo without any argument displays instructions.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 When running on Pentium computers, there may be a few seconds delay when starting your application and when exiting to DOS. 
+\par 
+\par \plain\f2\fs24\b\i MO'SLO DELUXE
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs20 MO'SLO DELUXE is an enhanced version of Mo'Slo that allows slowdown percentages from 0.1 to 99.9%, making it possible to run even the oldest PC games and timing-sensitive programs on a fast Pentium PC. Mo'Slo Deluxe also runs batch files transparently to the user, and does not require you to enter the file extension of executables or batch files. Includes a pause mode that allows changing speed percent without exiting your program, and a quick-start option for loading programs at full speed with slowdown after load. For information regarding the latest version of Mo'Slo, Mo'Slo Deluxe, and other Dr.David's Utilities, please visit our World Wide Web site at \plain\f4\fs20\b http://www.hpaa.com/moslo\plain\f4\fs20 .
+\par 
+\par \plain\f2\fs24\b\i SOFTWARE LICENSE
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs20 The Mo'Slo software program is owned by David Perrell and is protected by United States copyright laws and related international treaty provisions. License to use version 1.32 of Mo'Slo (subsequently referred to as the Software) is granted under the following terms and conditions:
+\par \plain\f4\fs12 
+\par \pard\li288\fi-288\plain\f4\fs20 1.\tab You may use the Software free of charge for personal recreation that is not part of any profit-making enterprise. All other use, including but not limited to use within commercial or governmental organizations and use as part of any development or testing procedure for a commercial product or service, requires purchase of a commercial or site license, EXCEPT that one copy of the Software may be used for a period of 15 days to evaluate its fitness for your needs.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 2.\tab You may freely distribute the Software provided this documentation is included. Distribution of the Software for financial gain or as accompaniment to any product distributed for financial gain requires a distribution license. Under no circumstances may this software be sold in any form without written permission from the author.
+\par \plain\f4\fs12 
+\par \plain\f4\fs20 3.\tab You may not make or have made any modification to the Software or to this documentation. You may not reverse-engineer, disassemble, or create derivative works based on the Software..
+\par \pard\plain\f4\fs12 
+\par \plain\f4\fs20 Using the Software implies acceptance of these terms. 
+\par 
+\par \plain\f2\fs24\b\i DISCLAIMER OF WARRANTY
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs22\b Mo'Slo is provided without warranty of any kind, express or implied, and the user assumes the entire risk of using it. The author will not be liable for any incidental, consequential, indirect or similar damages resulting from the use of this software. In no event will the author's liability ever exceed the price paid for the license to use the software, regardless of the nature of the claim. 
+\par \plain\f4\fs28\b 
+\par \plain\f2\fs24\b\i COMMERCIAL LICENSING
+\par \plain\f2\fs12\b\i 
+\par \plain\f4\fs20 A single-terminal license for Mo'Slo 1.32 is US$15 payable in US funds to Hearn/Perrell. For multi-user site licenses and distribution licensing information, please contact the author, David Perrell, at:
+\par \plain\f4\fs12 
+\par \pard\li1440\plain\f4\fs20 Dr.David's Super Crispy Software
+\par division of Hearn/Perrell
+\par 23022 Hatteras Street
+\par Woodland Hills, CA 91367
+\par \pard\plain\f4\fs12 
+\par \pard\li1440\plain\f4\fs20 Phone: (818) 884-7151 voice, (818) 884-7157 voice/FAX
+\par Email: davidp@earthlink.net  WWW: http://www.hpaa.com/moslo 
+\par \pard\plain\f4\fs20 
+\par 
+\par IBM PC, XT are trademarks of International Business Machines MS DOS and Microsoft Windows are trademarks of Microsoft Corporation
+\par }
+ 

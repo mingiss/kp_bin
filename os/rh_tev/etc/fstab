@@ -1,0 +1,14 @@
+LABEL=/1                /                       ext2    defaults        1 1
+LABEL=/boot             /boot                   ext2    defaults        1 2
+/dev/cdrom              /mnt/cdrom              iso9660 noauto,owner,ro 0 0
+/dev/fd0                /mnt/floppy             auto    noauto,owner    0 0
+none                    /proc                   proc    defaults        0 0
+none                    /dev/pts                devpts  gid=5,mode=620  0 0
+/dev/hda8               swap                    swap    defaults        0 0
+/dev/hda11              /mnt/suse52             ext2    defaults        1 1
+#/dev/hda4               /mnt/mandrake           ext2    defaults        1 1
+/dev/hda1               /mnt/win_c              msdos   defaults        1 1
+/dev/hda5               /mnt/win_d              msdos   defaults        1 1
+/dev/hda6               /mnt/win_e              msdos   defaults        1 1
+/dev/hda12              /mnt/win_f              msdos   defaults        1 1
+

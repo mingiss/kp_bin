@@ -1,0 +1,16 @@
+[COMMON]
+
+BUFFERS=40
+
+rem DEVICE=C:\WINDOWS\HIMEM.SYS /TESTMEM:OFF
+rem device=himem.sys
+
+DOS=HIGH,UMB
+
+rem device=display.sys con=(ega,,1)
+
+REM CD-ROM in Real-DOS-Mode
+rem DEVICE=C:\PROGS\CDROM\NEC\NEC_IDE.SYS /D:CD01 /PIO
+rem DEVICE=C:\PROGS\CDROM\MTM\mtmcdai.sys /d:mitsumi
+
+rem country=370,775,country.sys

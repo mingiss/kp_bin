@@ -1,0 +1,23 @@
+# http://www.techradar.com/news/networking/samba-4-share-filesystems-between-linux-and-windows-1154705
+
+[global]
+server string = Samba Server Version %v
+# Treat unknown users as a guest (where permitted)
+security = user
+map to guest = Bad User
+
+[F]
+path = /media/mingis/SAMSUNG
+## writable = yes
+read only = No
+browsable = Yes
+guest ok = Yes
+force user = nobody
+force group = nobody
+## public = no
+# valid users = mingis
+create mask = 0755
+directory mask = 0755
+
+
+

@@ -1,0 +1,7 @@
+# cp /home/kp/vm/dos.cfg /$KP/bin/vr.bin
+# cp /home/kp/vm/nt4.cfg /home/kp/vm/dos.cfg
+mv /home/kp/dat/dos.cfg /$KP/bin/vr.bin -f
+rm /home/kp/dat/vmware-log.root
+rm /home/kp/dat/vmware.log
+mv /root/.vmware/license /$KP/bin/vr.txt -f
+mv /root/.vmware/preferences /$KP/bin/vr.prf -f

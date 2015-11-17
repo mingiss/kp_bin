@@ -1,0 +1,17 @@
+# /etc/fstab: static file system information.
+#
+# Use 'blkid' to print the universally unique identifier for a
+# device; this may be used with UUID= as a more robust way to name devices
+# that works even if disks are added and removed. See fstab(5).
+#
+# <file system> <mount point>   <type>  <options>       <dump>  <pass>
+# / was on /dev/sda2 during installation
+UUID=e81cdc8b-c959-4c2d-8e49-bd4b26551fec /               ext4    errors=remount-ro 0       1
+# /boot/efi was on /dev/sda1 during installation
+UUID=CF55-4CA1  /boot/efi       vfat    defaults        0       1
+# swap was on /dev/sda3 during installation
+UUID=9a971aaf-5d8b-4db8-9999-e472674080cc none            swap    sw              0       0
+
+#/dev/sdb1 /media/mingis/SAMSUNG ntfs rw,user,umask=000 0 0
+/dev/sdb1 /media/mingis/SAMSUNG ntfs-3g auto,users,permissions 0 0
+
