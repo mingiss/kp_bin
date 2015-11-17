@@ -1,3 +1,11 @@
+hg-git/*
+os/mint64_baj5/home/mingis/kp/bin/FileZilla3/*
+os/mint64_baj5/home/mingis/kp/bin/eclipse/*
+os/mint64_baj5/home/mingis/kp/bin/hg-git/*
+os/mint64_baj5/home/mingis/kp/bin/jd-gui/*
+os/mint64_baj5/home/mingis/kp/bin/utorrent/*
+
+*~
 *.o
 *.obj
 *.a
@@ -23,3 +31,4 @@
 *.xml
 *.cbTemp
 *.depend
+
