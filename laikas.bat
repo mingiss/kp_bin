@@ -1,1 +1,0 @@
-net time \\LL90 /set /yes

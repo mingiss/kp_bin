@@ -1,5 +1,0 @@
-date > /home/kp/bin/rdat.tmp
-cat /home/kp/bin/date.sav >> /home/kp/bin/rdat.tmp
-rdat.pl < /home/kp/bin/rdat.tmp > /home/kp/bin/rdat.sh
-chmod 755 /home/kp/bin/rdat.sh
-rdat.sh

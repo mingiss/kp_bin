@@ -1,6 +1,0 @@
-# echo "$1"
-# echo "$2"
-find . -name $1 -exec grep $2 {} \; -print
-# find . -name $1 -exec echo grep $2 {} \;
-# find ./ -type f -print | xargs grep -H "STRING" /dev/null
-# egrep -ras STRING *

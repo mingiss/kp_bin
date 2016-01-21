@@ -1,1 +1,0 @@
-jar cmvf META-INF/MANIFEST.MF $1 bin/*.class

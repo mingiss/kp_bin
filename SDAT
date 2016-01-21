@@ -1,4 +1,0 @@
-date > /home/kp/bin/date.sav
-sdat.pl < /home/kp/bin/date.sav > /home/kp/bin/sdat.sh
-chmod 744 /home/kp/bin/sdat.sh
-/home/kp/bin/sdat.sh

@@ -1,6 +1,0 @@
-vh
-syn_stop
-#sleep 6
-sleep 1
-shutdown -t 6 -r +0
-

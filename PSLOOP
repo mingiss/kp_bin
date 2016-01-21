@@ -1,5 +1,0 @@
-for((;;)); do
-ps -e
-sleep 2
-done
-

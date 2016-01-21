@@ -1,4 +1,0 @@
-eno16777736: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
-        inet 192.168.182.133  netmask 255.255.255.0  broadcast 192.168.182.255
-        inet6 fe80::20c:29ff:fe85:995c  prefixlen 64  scopeid 0x20<link>
-        ether 00:0c:29:85:99:5c  txqueuelen 1000  (Ethernet)
